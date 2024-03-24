@@ -78,7 +78,7 @@ export default function Home() {
         <Stack align="center" spacing={0}>
           <Group w="96vw" h="10vh" position="apart" align="center">
             <Title order={3}>
-              ZK Rental Verification (CraigsCast)
+              ZK Rental Listing Verifier (CraigsCast)
             </Title>
             <ConnectWalletButton />
           </Group>
