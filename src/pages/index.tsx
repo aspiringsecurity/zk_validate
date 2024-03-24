@@ -71,7 +71,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>ZK Property Listing Verifier</title>
+        <title>ZK Rental Listing Verifier</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Stack justify="center" align="center" w="100vw" h="100vh" spacing={0}>
