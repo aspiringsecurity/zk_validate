@@ -78,7 +78,7 @@ export default function Home() {
         <Stack align="center" spacing={0}>
           <Group w="96vw" h="10vh" position="apart" align="center">
             <Title order={3}>
-              ZK Property Listing Verifier (CraigsCast)
+              ZK Vehicle Listing Verifier (Eth Garage)
             </Title>
             <ConnectWalletButton />
           </Group>
@@ -86,10 +86,7 @@ export default function Home() {
             <Grid.Col sm={8} md={6} lg={4}>
               <Text>
                 <Text>
-                {"Input the upper and lower threshold values of rental properties listed using Frames at Farcaster by a landlord or building owner. The two values must \
-                represent the range of expected values for receiving a Rental NFT badge. We'll generate a ZK proof \
-                locally in the browser and only the proof will be sent to the blockchain so that no one \
-                watching the blockchain will know the range of values for listing rental properties."}
+                {"Input the upper and lower threshold values of vehicle issues listed using Frames at Farcaster by a vehicle owner. The two values must represent the range of expected values for receiving a Repair NFT badge. We'll generate a ZK proof locally in the browser and only the proof will be sent to the blockchain so that no one watching the blockchain will know the range of values for listing vehicles to be serviced."}
               </Text>
               </Text>
               <Space h={20} />
