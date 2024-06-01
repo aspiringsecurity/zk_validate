@@ -71,14 +71,14 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>ZK Rental Listing Verifier</title>
+        <title>ZK Work Order Listing Verifier</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Stack justify="center" align="center" w="100vw" h="100vh" spacing={0}>
         <Stack align="center" spacing={0}>
           <Group w="96vw" h="10vh" position="apart" align="center">
             <Title order={3}>
-              ZK Work Order Listing Verifier (Starknet Warehouse)
+              ZK Work Order Listing Verifier
             </Title>
             <ConnectWalletButton />
           </Group>
