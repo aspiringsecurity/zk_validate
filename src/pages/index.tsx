@@ -86,7 +86,7 @@ export default function Home() {
             <Grid.Col sm={8} md={6} lg={4}>
               <Text>
                 <Text>
-                {"Input the upper and lower threshold values of vehicle issues listed using Frames at Farcaster by a vehicle owner. The two values must represent the range of expected values for receiving a Repair NFT badge. We'll generate a ZK proof locally in the browser and only the proof will be sent to the blockchain so that no one watching the blockchain will know the range of values for listing vehicles to be serviced."}
+                {"Input the upper and lower threshold values of work orders listed to a warehouse owner. The two values must represent the range of expected values for receiving a Work Order NFT badge. We'll generate a ZK proof locally in the browser and only the proof will be sent to the blockchain so that no one watching the blockchain will know the range of values for listing Work Orders to be serviced."}
               </Text>
               </Text>
               <Space h={20} />
